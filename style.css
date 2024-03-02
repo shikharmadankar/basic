@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body {
-    font-family: "Poppins", sans-serif;
-    background-image: url(back.avif);
-    background-size: cover;
-}
-.navbar
-{
-    background-color: black;
-    height: 55px;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 8px;
-}
-.navbar:hover{
-    transition: 0.3s;
-    border-radius: 8px;
-    border-color: white;
-}
-/* .border{
-    border: 2px solid transparent;
-    border-radius: 8px;
-}
-.border:hover{
-    border: 2px solid white
-} */
-.nav-logo
-{
-    height: 50px;
-    width: 30%;
-    display: inline-block;
-    /* justify-content: center; */
-    justify-content: space-between;
-    display: flex;
-    font-size: 40px;
-    padding: 20px;
-}
-.nav-logo i{
-    width: 40px;
-    height: 40px;
-    align-items: center;
-    padding-top: 5px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-image: url(back.avif); */
+  background-size: cover;
 }
+.navbar {
+  background-color: black;
+  height: 55px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+.navbar:hover {
+  transition: 0.3s;
+  border-radius: 8px;
+  border-color: white;
+}
+
+.nav-logo {
+  /* margin-left: 7rem; */
+  display: inline-block;
+  font-size: 28px;
+  align-items: center;
+  margin-left: 40px;
+  transition: 0.3s;
+  border-radius: 8px;
+  /* order: 2; */
+}
+.nav-logo i {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  align-items: center;
+  /* padding-top: 5px; */
+}
+
+.nav-logo:hover {
+  /* border: 2px soild white; */
+  background-color: white;
+  /* border-radius: 22px; */
+  color: black;
+}
+
 /* .options{
     background-color: #222f3d;
     height: 40px;
@@ -54,62 +55,52 @@ body {
     justify-content: space-evenly;
     align-items: center;
 } */
-.nav-logo:hover{
-    border: 2px soild white;
-    border-radius: 22px;
-    color: aquamarine;
-}
+
 .nav-add {
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 70%; */
+  padding-right: 1rem;
 }
-.nav-add p{
-    justify-content: space-between;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+
+.nav-add a {
+  /* margin: 0; */
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-right: 5rem;
+  padding: 8px 12px;
+  transition: 0.3s;
+  border-radius: 22px;
 }
-.nav-add p:hover{
-    border : 2px solid white;
-    border-radius: 22px;
-    /* border-bottom: 2px; */
-    color: aquamarine;
-    height: 4px;
+
+.nav-add a:hover {
+  color: black;
+  background-color: #fff;
 }
-.nav-add a{
-    margin: 0;
-    text-decoration: none;
-    color: white;
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.nav-add a:hover{
-    color: aquamarine;
+.hero-msg {
+  color: black;
+  width: 50%;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  top: 70px;
+  font-weight: 600;
 }
-.hero-section{
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero-msg{
-    color:black;
-    width: 50%;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 2rem;
-    position: absolute;
-    top: 70px;
-    font-weight: 600;
-}
-.box1{
-   
-    height: 400px;
-    width: 400px;
-    color: black;
-   
-    align-items: center;
+.box1 {
+  height: 400px;
+  width: 400px;
+  color: black;
+
+  align-items: center;
 }
